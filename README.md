@@ -1,4 +1,4 @@
-# ZCsh support plugin
+# ZCash support plugin
 
 This plugin extends BTCPay Server to enable users to receive payments via Zcash.
 
@@ -6,6 +6,9 @@ This plugin extends BTCPay Server to enable users to receive payments via Zcash.
 > This plugin isn't maintained and nobody but the original author knows how it works. (@hhanh00)
 
 We are looking for a maintainer.
+It seems that this plugin is more or less a copy-paste of the better-maintained [Monero Plugin](https://github.com/btcpayserver/btcpayserver-monero-plugin).
+
+If ZCash is a fork of Monero, it is probably possible to support both in the same plugin easily.
 
 ## Configuration
 
