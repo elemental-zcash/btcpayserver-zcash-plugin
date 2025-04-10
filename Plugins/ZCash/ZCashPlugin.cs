@@ -26,7 +26,7 @@ public class ZCashPlugin : BaseBTCPayServerPlugin
 
     public override IBTCPayServerPlugin.PluginDependency[] Dependencies { get; } =
     {
-        new IBTCPayServerPlugin.PluginDependency { Identifier = nameof(BTCPayServer), Condition = ">=2.0.5" }
+        new IBTCPayServerPlugin.PluginDependency { Identifier = nameof(BTCPayServer), Condition = ">=2.1.0" }
     };
 
     // Change this if you want another zcash coin
