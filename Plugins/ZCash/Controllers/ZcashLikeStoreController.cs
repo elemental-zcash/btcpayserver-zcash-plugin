@@ -29,7 +29,6 @@ using Microsoft.Extensions.Localization;
 namespace BTCPayServer.Plugins.ZCash.Controllers
 {
     [Route("stores/{storeId}/Zcashlike")]
-    [OnlyIfSupportAttribute("ZEC-CHAIN")]
     [Authorize(AuthenticationSchemes = AuthenticationSchemes.Cookie)]
     [Authorize(Policy = Policies.CanModifyStoreSettings, AuthenticationSchemes = AuthenticationSchemes.Cookie)]
     [Authorize(Policy = Policies.CanModifyServerSettings, AuthenticationSchemes = AuthenticationSchemes.Cookie)]
